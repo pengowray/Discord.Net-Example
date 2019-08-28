@@ -8,6 +8,7 @@ namespace Example.Modules
     [Summary("Do some math I guess")]
     public class MathModule : ModuleBase<SocketCommandContext>
     {
+        /*
         [Command("isinteger")]
         [Summary("Check if the input text is a whole number.")]
         public Task IsInteger(int number)
@@ -28,5 +29,6 @@ namespace Example.Modules
             int sum = numbers.Sum();
             await ReplyAsync($"The sum of `{string.Join(", ", numbers)}` is `{sum}`.");
         }
+        */
     }
 }

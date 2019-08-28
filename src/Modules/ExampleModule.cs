@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 
 namespace Example.Modules
 {
+    
     [Name("Example")]
     public class ExampleModule : ModuleBase<SocketCommandContext>
     {
+        /*
         [Command("say"), Alias("s")]
         [Summary("Make the bot say something")]
         [RequireUserPermission(GuildPermission.Administrator)]
@@ -33,5 +35,6 @@ namespace Example.Modules
                 await ReplyAsync($"{user.Mention} I changed your name to **{name}**");
             }
         }
+        */
     }
 }

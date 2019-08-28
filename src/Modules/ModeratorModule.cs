@@ -9,6 +9,7 @@ namespace Example.Modules
     [RequireContext(ContextType.Guild)]
     public class ModeratorModule : ModuleBase<SocketCommandContext>
     {
+        /*
         [Command("kick")]
         [Summary("Kick the specified user.")]
         [RequireUserPermission(GuildPermission.KickMembers)]
@@ -18,5 +19,6 @@ namespace Example.Modules
             await ReplyAsync($"cya {user.Mention} :wave:");
             await user.KickAsync();
         }
+        */
     }
 }
