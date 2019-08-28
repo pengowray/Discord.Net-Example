@@ -7,7 +7,7 @@ namespace Example.Modules
 {
     public class RoarModule : ModuleBase<SocketCommandContext>
     {
-        [Command("roar"), Alias("rwaor")]
+        [Command("roar"), Alias("rwoar", "rwaor")]
         [Summary("ROAR")]
         public Task Roar()
             => ReplyAsync("Rwoar!");
